@@ -1,0 +1,18 @@
+<html>
+<head>
+</head>
+<body>
+<span>input</span>
+<script type="text/javascript">
+<input type="text" name="in" id="name">
+<input type="submit" value="submit" onclick="val()">
+<span >output</span>
+<input type="text" name="out" id = "out">
+function val(){
+var a = document.getElementById('name').value;
+var b = a.toUpperCase();
+document.getElementById('out').value = b;
+}
+</script>
+</body>
+</html>
